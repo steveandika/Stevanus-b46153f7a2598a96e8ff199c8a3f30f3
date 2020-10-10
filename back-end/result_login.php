@@ -8,7 +8,7 @@
 	{
 ?>		
 		<script type="text/javascript">
-			window.open( "/dev-test/scripts/login.php" )
+			window.open( "/dev-test/scripts/login.php","_self");
 		</script> 
 <?php		
     }		
