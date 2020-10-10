@@ -7,11 +7,9 @@
 	if ($loginstatus == "") 
 	{
 ?>		
-		header("location: http://localhost/dev-test/scripts/login"); 
 		<script type="text/javascript">
-
-window.open( "/dev-test/scripts/login.php" )
-</script> 
+			window.open( "/dev-test/scripts/login.php" )
+		</script> 
 <?php		
     }		
 ?>
