@@ -1,6 +1,17 @@
 <?php
 	include("common.php");
 	
-    $logintstatus = checkLoginState();	
-	echo $logintstatus;
+    $loginstatus = checkLoginState();	
+	echo $loginstatus;
+	
+	if ($loginstatus == "") 
+	{
+?>		
+		header("location: http://localhost/dev-test/scripts/login"); 
+		<script type="text/javascript">
+
+window.open( "/dev-test/scripts/login.php" )
+</script> 
+<?php		
+    }		
 ?>
